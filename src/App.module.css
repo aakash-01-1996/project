@@ -1,0 +1,33 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.loading {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.mainContainer {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px;
+	overflow-x: scroll;
+	background-color: #f6f8fa;
+	gap: 20px;
+}
+
+.productOverviewSection {
+	flex: 1 1;
+}
+
+.productDetailSection {
+	display: flex;
+	flex: 3 1;
+	flex-direction: column;
+	min-width: 400px;
+	gap: 20px;
+}
